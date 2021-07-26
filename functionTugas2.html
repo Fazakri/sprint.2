@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>fatah zaki tugassp2</title>
+</head>
+<body>
+    <script>
+        function hitungvolumebalokluaspermukaanbalok(panjang, lebar, tinggi){
+            volume = panjang * lebar * tinggi
+            luas = 2 *(panjang * lebar) + (panjang * tinggi) + (lebar * tinggi)
+            document.write("panjang : " + panjang + "<br/>")
+            document.write("lebar : " + lebar + "<br/>")
+            document.write("tinggi : "+ tinggi + "<br/>")
+            document.write("volume :" + volume + "<br/>") 
+            document.write("luas permukaan balok:"+ luas)
+        }
+
+        inputpanjang = prompt("masukan nilai panjang")
+        inputlebar = prompt("masukan nilai  lebar")
+        inputtinggi = prompt("masukan nilai tinggi")
+        hitungvolumebalokluaspermukaanbalok(inputpanjang, inputlebar, inputtinggi)
+    </script>
+    
+</body>
+</html>
